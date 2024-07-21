@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CT4ITNk0LWU+VJ95BJFyDQuU1ADvpFzf8qv2zaHBWoY=",
+  "Source": "SmartMeterAPI",
+  "BasePath": "_content/SmartMeterAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

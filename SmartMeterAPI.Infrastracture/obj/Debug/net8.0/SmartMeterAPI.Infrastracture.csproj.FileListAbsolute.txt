@@ -1,0 +1,17 @@
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Infrastracture.deps.json
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Infrastracture.runtimeconfig.json
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Infrastracture.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Infrastracture.pdb
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Domain.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\bin\Debug\net8.0\SmartMeterAPI.Domain.pdb
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.csproj.AssemblyReference.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.AssemblyInfoInputs.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.AssemblyInfo.cs
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.csproj.CopyComplete
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\refint\SmartMeterAPI.Infrastracture.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.pdb
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\SmartMeterAPI.Infrastracture.genruntimeconfig.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Infrastracture\obj\Debug\net8.0\ref\SmartMeterAPI.Infrastracture.dll

@@ -1,0 +1,14 @@
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\bin\Debug\net8.0\SmartMeterAPI.Domain.deps.json
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\bin\Debug\net8.0\SmartMeterAPI.Domain.runtimeconfig.json
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\bin\Debug\net8.0\SmartMeterAPI.Domain.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\bin\Debug\net8.0\SmartMeterAPI.Domain.pdb
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.AssemblyInfo.cs
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\refint\SmartMeterAPI.Domain.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.pdb
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.genruntimeconfig.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\ref\SmartMeterAPI.Domain.dll
