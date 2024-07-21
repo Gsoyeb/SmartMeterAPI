@@ -7,6 +7,7 @@ C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.AssemblyInfoInputs.cache
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.AssemblyInfo.cs
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.sourcelink.json
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\refint\SmartMeterAPI.Domain.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI.Domain\obj\Debug\net8.0\SmartMeterAPI.Domain.pdb

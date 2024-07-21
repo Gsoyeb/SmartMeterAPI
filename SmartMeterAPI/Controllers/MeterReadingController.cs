@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
-using System.Diagnostics;
+using SmartMeterAPI.Infrastracture.Repositories.IRepositories;
 
 namespace SmartMeterAPI.Controllers
 {
@@ -15,11 +15,13 @@ namespace SmartMeterAPI.Controllers
     [Route("api/[controller]")]
     public class MeterReadingController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ICustomerRepository _customerRepository;
+        private readonly IMeterReaderRepository _meterReaderRepository;
 
-        public MeterReadingController(ApplicationDbContext context)
+        public MeterReadingController(ICustomerRepository customerRepository, IMeterReaderRepository meterReaderRepository)
         {
-            _context = context;
+            _customerRepository = customerRepository;
+            _meterReaderRepository = meterReaderRepository;
         }
 
         [HttpPost("meter-reading-uploads")]
@@ -37,36 +39,31 @@ namespace SmartMeterAPI.Controllers
                 {
                     var data = line.Split(',');
 
-                    if (data.Length < 3 || !int.TryParse(data[0].Trim(), out int accountId) ||
+                    if (data.Length < 3 || 
+                        !int.TryParse(data[0].Trim(), out int accountId) ||
                         !DateTime.TryParseExact(data[1].Trim(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dateTime) ||
                         !int.TryParse(data[2].Trim(), out int meterValue))
                     {
                         failedReads++;
-                        // Debug.WriteLine($"Failure: ID = {data[0]} at time {data[1]}");
                         continue;
                     }
 
 
-                    if (!_context.Customers.Any(c => c.AccountId == accountId))
+                    if (!await _customerRepository.Exists(accountId))
                     {
-                        // Debug.WriteLine($"Failure: ID = {data[0]} at time {data[1]}");
                         failedReads++;
                         continue;
                     }
 
-                    var existingReading = _context.MeterReadings
-                        .Where(m => m.AccountId == accountId)
-                        .OrderByDescending(m => m.MeterReadingDateTime)
-                        .FirstOrDefault();
-
+                    // Duplicate check
+                    var existingReading = await _meterReaderRepository.GetLatestReading(accountId);
                     if (existingReading != null && existingReading.MeterReadingDateTime >= dateTime)
                     {
-                        // Debug.WriteLine($"Failure: ID = {data[0]} at time {data[1]}");
                         failedReads++;
                         continue;
                     }
 
-                    _context.MeterReadings.Add(new MeterReading
+                    await _meterReaderRepository.AddReading(new MeterReading
                     {
                         AccountId = accountId,
                         MeterReadingDateTime = dateTime,
@@ -75,13 +72,12 @@ namespace SmartMeterAPI.Controllers
 
                     successfulReads++;
 
-                    // Debug.WriteLine($"Success: ID = {data[0]} at time {data[1]}");
                 }
             }
 
-            await _context.SaveChangesAsync();
+            // await _context.SaveChangesAsync();
 
-            return Ok(new { SuccessfulReads = successfulReads, FailedReads = failedReads });
+            return Ok(new UploadResult { SuccessfulReads = successfulReads, FailedReads = failedReads });
         }
     }
 }

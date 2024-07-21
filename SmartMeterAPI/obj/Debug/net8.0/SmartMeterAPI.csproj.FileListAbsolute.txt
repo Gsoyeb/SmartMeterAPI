@@ -7,6 +7,7 @@ C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\SmartMe
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\SmartMeterAPI.pdb
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Humanizer.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -33,6 +34,7 @@ C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Microso
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Moq.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -126,6 +128,7 @@ C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\SmartMe
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\SmartMeterAPI.csproj.CoreCompileInputs.cache
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\SmartMeterAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\SmartMeterAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\SmartMeterAPI.sourcelink.json
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\golam\source\repos\SmartMeterAPI\SmartMeterAPI\obj\Debug\net8.0\staticwebassets\msbuild.SmartMeterAPI.Microsoft.AspNetCore.StaticWebAssets.props
